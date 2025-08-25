@@ -28,7 +28,9 @@ I tested this logic with the mini dataset and the large dataset , and it so happ
 
 
 But then I assumeing dataleakage, becauese of the upsampling, therefore I applied the upsampling of the training dataset only, and this is the result 
+<img width="1342" height="1566" alt="image" src="https://github.com/user-attachments/assets/9ac19c64-d7a2-413a-bd5a-e06e31c7b19d" />
 
+so As i expected, dataleackage due to the upsampling, so I expect the reason is thet the flag "chrun" that I initially anticipated as the "flag" for swithcing from Paid to Free is depending on its previous row, I did not add the info as a feature, which I think will improve the performance of the upsampiling and the model
 
 
 
